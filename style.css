@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    background:
+        url('pexels-janetrangdoan-1092730.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.644);
+}
+
+.over {
+    width: 100%;
+    height: 100%;
+    background-color: #b4d6cd96;
+}
+
+a {
+    color: #ec1e63;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.name {
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.klam {
+    color: #ec1e63;
+    width: 700px;
+    margin-left: 300px;
+
+
+}
+
+.klam h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    font-size: 90px;
+}
+
+.klam p {
+    letter-spacing: 3px;
+    width: 750px;
+    margin-bottom: 150px;
+    font-size: 20px;
+
+}
+
+.klam button {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #ec1e63;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: pink;
+    font-size: 1.2em;
+    font-weight: 550;
+    margin-left: 150px;
+}
+.fakha{
+background-color: pink;
+width: 100%;
+height: 80vh;
+padding-bottom: 40px;
+}
+.sorafakha{
+
+    margin-left: 1025px;
+display: inline;
+
+}
+.klamfakha{
+color: #84ddc5;
+}
+.klamfakha h2{
+    letter-spacing: 3px;
+    font-size: 60px;
+    width: 900px;
+    margin-bottom: 1cm;
+    
+    }
+    .klamfakha p{
+        letter-spacing: 3px;
+        width: 200px;
+        font-size: 30px;
+display: inline;
+        }
+.asm {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ec1e63;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border-color: #84ddc5;
+    border-style: double;
+    border-width: 10px;
+}
+
+.sor {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    color: #ec1e63;
+    text-align: center;
+    margin-left: 450px;
+    float: right;
+
+}
+
+.awl {
+
+    margin-bottom: 80px;
+
+}
+
+.talt {
+    margin-top: 80px;
+
+}
+
+
+.form {
+    margin-top: 10px;
+    font-size: larger;
+    color: #84ddc5;
+    margin-top: 30px;
+    float: left;
+}
+
+.box {
+    padding-left: 30px;
+    margin-top: 5px;
+
+}
+
+.zr {
+    margin-left: 600px;
+}
+
+.zr button {
+    color: #3a465a98;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff1f;
+    border-radius: 20px;
+    background: #ebebeb;
+}
+
+.input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.input:hover,
+  .input:focus {
+    border: 2px solid #ec1e63;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
